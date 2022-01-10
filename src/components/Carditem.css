@@ -1,0 +1,45 @@
+.close{
+    position: absolute;
+    right: 1rem;
+    top: 2.5rem;
+    z-index: 1000;
+}
+.modal{
+    padding: 20px;
+   padding-right: 0;
+
+}
+.zoom{
+    flex: 9;
+}
+.zoom img{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.txt h1{
+    text-align: center;
+  margin: 10px;
+  font-size: 28px;
+  font-family: "Lora", sans-serif;
+
+} 
+.txt h2{
+    margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #504c47;
+  font-family: "Varela Round", Arial, Helvetica, sans-serif;
+}
+.txt h2::first-letter{
+   margin-left: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.txt{
+  color: rgb(5, 5, 5);
+  font-size: 18px;
+  line-height: 25px;
+}
